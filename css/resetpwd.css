@@ -1,0 +1,66 @@
+body{
+    background:url("mainbackground1.png");
+    /*background: url(poster.jpeg);*/
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#reset-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:16%;
+    background: #00000060;
+    padding: 20px 50px;
+}
+
+#reset-box form .item h2 {
+    color: white;
+    margin-top: 30px;
+}
+
+#reset-box form .item input {
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-size: 25px;
+    margin-top: 15px;
+    width: 100%;
+    background: #ffffff00;
+    /* Fade away effect */
+    transition: background 0.2s, border 0.2s;
+}
+
+#reset-box form .item input::placeholder {
+    text-align: center;
+}
+
+#reset-box button {
+    margin-top: 30px;
+    width:200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border: 0;
+    border-radius: 20px;
+}
+
+#reset-box .button {
+    display: inline-block;
+    margin-top: 30px;
+    width:200px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border: 0;
+    border-radius: 20px;
+}

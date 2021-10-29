@@ -1,0 +1,47 @@
+p.heading{
+    font-family: Malgun Gothic;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    top: 45px;
+    left: 115px;
+    text-indent: 115px;
+}
+
+svg{
+    position: relative;
+    top: 180px;
+    left: 100px;
+}
+
+label{
+    position: relative;
+    top: -250px;
+    left: 665px;
+    font-family: Malgun Gothic;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input{
+    position: relative;
+    top: -300px;
+    left: 900px;
+    width: 480px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+input[type=submit]{
+    position: relative;
+    top: -310px;
+    left: 900px;
+    width: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 35px;
+}

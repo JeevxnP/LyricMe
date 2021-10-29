@@ -1,0 +1,75 @@
+body{
+    background: url('mainbackground1.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+
+
+.createHeader{
+    margin: 120px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.createThreadWrapper{
+	display: flex;
+	justify-content: center;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:2%;
+    background: #00000060;
+    padding: 20px 50px;
+}
+
+.createThreadWrapper .item{
+	margin-top: 10px;
+}
+
+/*changed by pak*/
+.description{
+    resize: none;
+    width: 92.5%;
+    height: 150px;
+    padding: 15px 20px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 1;
+    border-color: aliceblue;
+    border-radius: 8px;
+    color: white;
+    padding: 0px 16px;
+    background: #00000060;
+}
+
+/*added by pak*/
+.description:focus {
+    border: 2px solid #000;
+    outline: 0;
+    transition: all 0.3s ease-in-out; 
+}
+
+.input{
+    border: 1;
+    border-color: aliceblue;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    padding: 0px 16px;
+    background: #00000060;
+}
+
+.button{
+    margin-top: 30px;
+    width:200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border: 0;
+    border-radius: 20px;
+}

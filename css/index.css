@@ -1,0 +1,194 @@
+/*body*/
+a{
+    text-decoration: none;
+}
+
+a,div,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+/*changed by pak*/
+.mainHeader{
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 50px;
+    background-image: linear-gradient(to top, #000C66, #98c3fc 55%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+}
+
+.mainBg{
+    background: url('main1112.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+
+
+/*added by pak*/
+.search-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/*changed by pak*/
+.clearButton{
+    width: 170px;
+    height: 55px;
+    font-size: 25px;
+    border: 2px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+/*added by pak*/
+.clearButton:hover{
+    background-color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+/*changed by pak*/
+.searchButton{
+    width: 170px;
+    height: 55px;
+    font-size: 25px;
+    border: 2px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+/*added by pak*/
+.searchButton:hover{
+    background-color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+.searchBar{
+    margin: 0 auto;
+    width: 700px;
+    height: 50px;
+    border: 2px black double;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+.hr1{
+    margin: 20px 0;
+    width: 100%;
+    height: 2px;
+    background-color: black ;
+    margin-bottom: 10px;
+}
+
+/*added by pak*/
+.main-contents{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/*chanegd by pak*/
+.threadSort{
+    position: absolute;
+    left: 7.5%;
+    margin-right: 10px;
+    background-color: aliceblue;
+    border-top: 1px solid transparent;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1px;
+}
+
+/*chagned by pak*/
+.sortButton{
+    height: 40px;
+    width: 85%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border: 2px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+/*added by pak*/
+.sortButton:hover{
+    background-color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+.createThread{
+    position: absolute;
+    right: 11.5%;
+    margin-left: 10px;
+}
+
+.createThread .wrapper button{
+    height: 40px;
+    width: 85%;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border: 2px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+.createThread .wrapper button:hover{
+    background-color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+/*changed by pak*/
+.threadBg{
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    background-color: aliceblue;
+    border-top: 1px solid transparent;
+    border: 1px solid black;
+}
+
+/*added by pak*/
+.threadItem{
+    margin-top:2.5px;
+    margin-bottom: 2.5px;
+}
+
+/*added by pak*/
+.threadItem:hover{
+    background-color: #bbc5d1;
+    transition: all 0.35s ease-in-out;
+} 
+
+.threadBody{
+    width:100%;
+    height:50px;
+    color: black;
+    text-align: center;
+}
+
+.threadBody.id{
+    width:8%;
+    float: left;
+    font-size: 10px;
+}
+
+.threadBody.main{
+    width:76%;
+    float:left;
+    font-size: 20px;
+}
+
+.threadBody.date{
+    width: 15%;
+    float: left;
+    font-size: 10px;
+}
+
+/*added by pak*/
+.threadHr{
+    margin: 0;
+}

@@ -1,0 +1,226 @@
+a{
+    text-decoration: none;
+}
+
+a,div,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url('decritation11.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+
+/*changed by pak*/
+.threadBg{
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    background-color: aliceblue;
+    border-top: 1px solid transparent;
+    border: 1px solid black;
+}
+
+/*changed by pak*/
+.upperPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*added by pak*/
+.upperPart *{
+    margin: 5px;
+}
+
+/*changed by pak*/
+.image{
+    width: 498px;
+    height: 498px;
+    background-color: grey;
+    margin: 10px;
+    line-height: 500px;
+    text-align: center;
+    font-size: 50px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    align: center;
+}
+
+.contents{
+    background-color: rgb(226, 109, 132);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.title{
+    background-color: rgb(236, 144, 162);
+    margin: 10px;
+    font-size: 40px;
+    width: 580px;
+    height: 350px;
+}
+
+/*changed by pak*/
+.btn{
+    background-color: aqua;
+    width: 100%;
+    font-size: 30px;
+}
+
+/*added by pak*/
+.controls {
+    width: 97.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*added by pak*/
+.controls * {
+  margin: 5px 0;
+}
+
+.audio {
+    width: 100%;
+}
+.hr1{
+    height: 2px;
+    background-color: black;
+    margin: 0 5px;
+}
+
+/*added by pak*/
+.commentPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.publishComment{
+    border: 2px solid black;
+    width: 1100px;
+    height: 150px;
+    margin: 10px 10px 0 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.publishComment.general{
+    background-color: bisque;
+}
+
+.publishComment.correct{
+    background-color: #ccffcc;
+}
+
+/*added by pak*/
+.newCmtBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*changed by pak*/
+.commentbar{
+    resize: none;
+    background-color: transparent;
+    width: 92.5%;
+    height: 150px;
+    padding: 15px 20px;
+    font-size: 30px;
+    border: 2px solid #8a8787;
+    border-radius: 5px;
+}
+
+/*added by pak*/
+.commentbar:focus {
+    border: 2px solid #000;
+    outline: 0;
+    transition: all 0.3s ease-in-out; 
+}
+
+/*changed by pak*/
+.btnSend{
+    border-color: #52688F;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(142, 109, 204);
+    color: white;
+    width:100px;
+    height: 45px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+/*added by pak*/
+.btnSend:hover{
+    border-color: #5885AF;
+    background: #5885AF;
+    transition: all 0.3s ease;
+}
+
+.commentBody{
+    width:100%;
+    height:75px;
+    color: black;
+    text-align: center;
+}
+
+.commentBody.id{
+    width:15%;
+    float: left;
+    font-size: 10px;
+}
+
+.commentBody.main{
+    width:70%;
+    float:left;
+    font-size: 20px;
+}
+
+.commentBody.date{
+    width: 15%;
+    float: left;
+    font-size: 10px;
+}
+
+.confirmButton{
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border: 2px solid #5a5a5a;
+    border-radius: 8px;
+}
+
+.confirmButton:hover{
+    background-color: #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+.m-playerbar .hand{
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}

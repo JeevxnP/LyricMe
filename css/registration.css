@@ -1,0 +1,71 @@
+body{
+    background:url("mainbackground1.png");
+    /*background: url(poster.jpeg);*/
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#registration-box{
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    background: #00000060;
+    padding: 20px 50px;
+    justify-content: center;
+}
+#registration-box h1 {
+    color: white;
+}
+
+#registration-box .form .item h3 {
+    color: white;
+}
+
+#registration-box .form {
+    margin-top: 0px;
+}
+
+
+#registration-box .form .item input {
+    border: 1;
+    border-color: aliceblue;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    padding: 0px 16px;
+    background: #00000060;
+    /* Fade away effect */
+    transition: background 0.2s, border 0.2s;
+}
+
+#registration-box .form .item{
+    margin-top: 35px;
+}
+
+#registration-box button {
+    margin-top: 30px;
+    width:200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border: 0;
+    border-radius: 20px;
+}
+
+#registration-box .button {
+    display: inline-block;
+    margin-top: 30px;
+    width:200px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    border: 0;
+    border-radius: 20px;
+}
+
